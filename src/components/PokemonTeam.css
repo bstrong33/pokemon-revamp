@@ -1,0 +1,28 @@
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.teamAndName {
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(43, 0, 0);
+    border: 1px solid white;
+}
+
+.wholeTeam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.individualTeamMember {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.individualTeamMember:hover {
+    background-color: rgb(119, 46, 4);
+}

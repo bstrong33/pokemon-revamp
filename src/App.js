@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import './reset.css';
 import './App.css';
+import PokemonTeam from './components/PokemonTeam';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='header'>
+        <img className='pokeball' src='https://img.rankedboost.com/wp-content/uploads/2016/07/PokeBall.png' alt='Pokéball' />
+        <h1 className='title'>Pokémon</h1>
+        <h3>M</h3>
+      </div>
+      <PokemonTeam />
     </div>
   );
 }
